@@ -1,0 +1,37 @@
+.container-main {
+    background-color: hsl(209, 79%, 80%);
+    padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+    
+  }
+  
+  .heading-header {
+    color: white;
+  }
+  
+  .right-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .link-div {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+  }
+  
+  input[type="search"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #CBD5E0;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  input[type="search"]:focus {
+    border-color: #4299E1;
+  }
+  
